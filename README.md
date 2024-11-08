@@ -1,1 +1,1 @@
-# Mini-Pok-dex
+# Mini-Poke-dex
