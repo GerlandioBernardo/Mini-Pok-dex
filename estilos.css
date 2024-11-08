@@ -1,0 +1,65 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 107, 83);
+}
+.principal{
+    margin-top: 30px;
+    background-color: brown;
+    width: 410px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+.principal h2{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+#centralizar{
+    display: flex;
+    justify-content: center;
+}
+#resultado{
+    background-color: white;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+#inputButton{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    width: 155px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+button{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+#img img{
+    width: 200px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+#nomeDiv, #peso, #altura{
+    margin-left: 20px;
+    color: blueviolet;
+    
+}
